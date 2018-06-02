@@ -21,14 +21,13 @@ a{
 	display: inline-block;
 	width: 530px;
 	float: left;
-	margin-left: 187px;
+	margin-left: 160px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;	
 }
 .dingbu3{
 	padding-top: 50px;
-	width: 407px;
 	display: inline-block;
 	float: left;
 	margin-left: 190px;
@@ -51,6 +50,12 @@ a{
 	border-width: 1px;		
 	color: #7d7d7d;
 }
+
+#select{
+	border:none;
+}
+
+
 .zhuce{
 	font-size: 16px;
 	display: inline-block;
@@ -69,9 +74,9 @@ a{
 	border-width: 1px;		
 }
 .dingbu6{
+	padding-left: 117px;
 	display: inline-block;
 	float: left;
-	width: 1145px;
 	height: 50px;
 	border-style:solid;
 	border-color: red;
@@ -81,30 +86,41 @@ a{
 	font-size: 16px;
 	display: block;
 	float: left;
-	margin-left: 70px;
+	margin-left: 40px;
 	margin-top: 10px;
 }
+
+
 .dingbu7{
-	padding-top: 10px;
 	display: inline-block;
 	height: 50px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;	
-	padding-left: 200px;
+	padding-left: 159px;
 }
 
 
-
+.dingbu7 button{
+	margin-left: 2px;
+	margin-top: 10px;
+	float: left;
+	height: 31px;
+	width: 31px;
+}
 
 
 
 .d1 {
-	width: 255px;
-	background: #A3D0C3;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	
+
 }
 .d1 input {
-  width: 100%;
+
+  width: 255px;
   height: 30px;
   padding-left: 10px;
   border: 2px solid #7BA7AB;
@@ -112,8 +128,8 @@ a{
   outline: none;
   color: #9E9C9C;
 }
-.d1 button {
-  position: absolute; 
+
+/*.d1 button {
   top: 0;
   right: 0px;
   width: 42px;
@@ -128,7 +144,7 @@ a{
   font-family: FontAwesome;
   font-size: 16px;
   color: #F9F0DA;
-}   
+}   */
 
 
 
@@ -165,7 +181,7 @@ a{
 .lanse1{
 	float:left;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 155px;
 }
 .lanse2{
 	float:left;	
@@ -185,7 +201,7 @@ a{
 .lanse5{
 	float: left;
 	margin-top: 25px;
-	margin-left: 740px;
+	margin-left: 565px;
 	color: #ffffff;
 }
 .lanse6{
@@ -222,7 +238,7 @@ a{
 	display: inline-block;
 	float: left;
 	padding-top: 60px;
-	padding-left: 200px;
+	padding-left: 150px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;		
@@ -288,7 +304,7 @@ a{
 .heiyou{
 	display: inline-block;
 	float: left;
-	width: 506px;
+	width: 400px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;		
@@ -296,7 +312,6 @@ a{
 .heiyou1{
 	display: block;
 	padding-left: 35px;
-	width: 506px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;		
@@ -306,7 +321,6 @@ a{
 	color: #ffffff;
 	display: block;
 	padding-left: 35px;
-	width: 506px;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;		
@@ -328,6 +342,7 @@ a{
 	border-width: 1px;		
 }
 .zuihou{
+	margin:0 auto;
 	display: block;
 	width: fill;
 	height: 30px;
@@ -336,19 +351,10 @@ a{
 	border-color: red;
 	border-width: 1px;		
 }
-.zuihou1{
-	display: inline-block;
-	float: left;
-	padding-left: 332px;
+.zuihou p{
+	text-align: center;
 	border-style:solid;
 	border-color: red;
 	border-width: 1px;	
-}
-.zuihou2{
-	display: inline-block;
-	float: left;
-	padding-left: 140px;
-	border-style:solid;
-	border-color: red;
-	border-width: 1px;	
+	color: #ffffff;
 }

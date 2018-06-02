@@ -14,12 +14,12 @@
 			<span>电话：800-8687-041</span>
 		</div>
 		<div class="dingbu4">
-			<form>Language
-				<select>
-					<option>中文</option>
-				    <option>English</option>
+			<span  id="abc">Language</span>
+				<select onchange="myclick(this)" id="select" name="Laugage" value="Laugage">
+					<option onclick="myclick(this)" value="语言">中文</option>
+				    <option onclick="myclick(this)" value="Language">English</option>
 				</select>				
-			</form>
+			
 		</div>		
 		<div class="zhuce">
 			<span>
@@ -34,16 +34,17 @@
 				<li><a href="#">技术支持</a></li>
 				<li><a href="#">解决方案</a></li>
 				<li><a href="#">计量和服务</a></li>
-				<li><a href="#">新闻中心</a></li>		
-				<li><a href="#">访问论坛</a></li>	
+				<li><a href="#">新闻中心</a></li>	
+				<li><a href="#">访问论坛</a></li>
 				<li><a href="#">关于我们</a></li>
 			</ul>
 		</div>
 		<div class="dingbu7">
 			<form class="d1">
 				<input type="text" placeholder="搜索">
-				<button type="submit"></button>
+				
 			</form>
+			<button src="..\images\f.jpg" type="submit"></button>
 		</div>
 	</div>
 
@@ -137,14 +138,20 @@
 		</div>			
 	</div>
 	<div class="zuihou">
-		 <div class="zuihou1">
-		 	www.cetcei.com 中电科仪器仪表有限公司
-		 </div>
-		 <div class="zuihou2">
-		 	《中华人民共和国电信与信息服务业务经营许可证》编号：皖ICP备05003230 法律说明丨网站地图
-		 </div>
+		 <p>www.cetcei.com 中电科仪器仪表有限公司&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp《中华人民共和国电信与信息服务业务经营许可证》编号：皖ICP备05003230 法律说明丨网站地图</p>
 	</div>
 
 
 </body> 
+
+<script>
+	var abc = document.getElementById('abc');
+  function myclick(e){
+  	var val = e.options[e.selectedIndex].value;
+  	abc.innerHTML = val;
+  	console.log(e.options[e.selectedIndex].value);
+   }
+</script>
+
+
 </html>
